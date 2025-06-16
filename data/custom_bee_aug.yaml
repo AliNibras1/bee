@@ -1,0 +1,28 @@
+lr0: 0.01           # initial learning rate
+lrf: 0.1            # final learning rate (multiplier)
+momentum: 0.937
+weight_decay: 0.0005
+warmup_epochs: 3.0
+warmup_momentum: 0.8
+warmup_bias_lr: 0.1
+box: 0.05
+cls: 0.5
+cls_pw: 1.0
+obj: 1.0
+obj_pw: 1.0
+iou_t: 0.2
+anchor_t: 4.0
+fl_gamma: 0.0
+hsv_h: 0.05         # color augmentation - hue
+hsv_s: 0.8          # saturation
+hsv_v: 0.6          # value
+degrees: 10.0       # random rotation
+translate: 0.2      # random translation
+scale: 0.7          # random scaling
+shear: 5.0          # shear distortion
+perspective: 0.000  # perspective warping
+flipud: 0.0         # vertical flip (off - bees mostly top-down)
+fliplr: 0.5         # horizontal flip
+mosaic: 1.0         # mosaic augmentation (very useful)
+mixup: 0.1          # slight mixup (blending images)
+copy_paste: 0.0     # leave off for now

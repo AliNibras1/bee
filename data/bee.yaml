@@ -1,0 +1,5 @@
+train: C:\Users\QASR-PC BK Z\Downloads\yolov5-master\yolov5-master\data\train\images
+val: C:\Users\QASR-PC BK Z\Downloads\yolov5-master\yolov5-master\data\valid\images
+
+nc: 1  # Number of classes (1 for 'bee')
+names: ['bee']  # Class name

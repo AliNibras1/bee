@@ -1,0 +1,5 @@
+train: data/train/images  # Path to training images
+val: data/valid/images  # Path to validation images
+
+nc: 1  # Number of classes (change this if needed)
+names: ['bee']  # List of class names (update this if you have more classes)

@@ -1,0 +1,38 @@
+# YOLOv5 hyperparameters for training
+
+# Augmentation settings
+flipud: 0.5  # Vertical flip
+fliplr: 0.5  # Horizontal flip
+hsv_h: 0.015  # Hue shift
+hsv_s: 0.7  # Saturation shift
+hsv_v: 0.4  # Value shift
+scale: 0.5  # Scaling factor
+translate: 0.1  # Translation
+degrees: 10  # Rotation in degrees
+shear: 10  # Shear in degrees
+perspective: 0.0  # Perspective shift
+mosaic: 1.0  # Mosaic augmentation (1 to use)
+
+# Learning rate settings
+lr0: 0.01  # Initial learning rate
+lrf: 0.1  # Final learning rate multiplier
+momentum: 0.937  # Momentum value
+weight_decay: 0.0005  # Weight decay
+
+# Training settings
+warmup_epochs: 3.0  # Number of epochs for warmup
+warmup_momentum: 0.8  # Momentum during warmup
+warmup_bias_lr: 0.1  # Bias learning rate during warmup
+box: 0.05  # Box loss gain
+cls: 0.5  # Class loss gain
+cls_pw: 1.0  # Class loss positive weight
+obj: 1.0  # Objectness loss gain
+obj_pw: 1.0  # Objectness loss positive weight
+iou_t: 0.20  # IOU threshold for objectness
+anchor_t: 4.0  # Anchor threshold
+fl_gamma: 0.0  # Focal loss gamma
+
+# Image settings
+img_size: 640  # Image size for training
+batch_size: 16  # Batch size
+epochs: 300  # Number of epochs
